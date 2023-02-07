@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{font-family: 'Raleway', 'Open Sans';
+text-decoration: none;
+margin: none;
+padding: none;
+box-sizing: border-box;
+
+}
+
+
+
+:root {
+
+    --VeryDarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+    
+
+
+
+}
+
+
+body {
+    max-width: 1340px;
+
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding: 20px 100px 0 100px;
+width: 100%;
+text-align: center;
+
+
+}
+
+nav a {
+margin-left: 25px;
+color: var(--LightGray);
+
+}
+
+
+
+
+.Sectionimg {
+   width: 100%;
+   padding: 20px 100px 0 100px;
+   display: flex;
+   justify-content: space-between;
+   margin: 40px auto 0 auto;
+   height: auto;
+
+}
+
+
+.sectionimgwriting {
+    padding-top: 30px;
+    width: 45%;
+
+}
+
+.sectionimgwriting h1 {
+
+    font-size: 2.1rem;
+    
+
+}
+
+.sectionimgwriting p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    
+}
+
+
+input {
+    width: 280px;
+    height: 40px;
+}
+
+
+:placeholder-shown { padding-left: 10px;
+
+}
+
+button {
+
+    width: 210px;
+    height: 40px;
+    background-color: var(--BrightBlue);
+    border: none;
+    color: var(--LightGrayishBlue)
+    
+
+
+}
+
+
+
+.sectionimagepic {
+    width: 45%;
+}
+
+
+.sectionimagepic img {
+    width: 510px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+
+.sectiontwoimg {
+    width: 100%;
+    padding: 20px 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+
+
+.sectiontwoimg {
+    background-image: url(./images/bg-curve-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+       
+    }
+
+
+
+
+.sectiontwoimgwriting
+{
+    width: 45%;
+
+}
+
+.sectiontwoimgwriting h1{
+
+    font-size: 1.9rem;
+}
+
+
+.sectiontwoimgwriting p {
+
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.green {
+    color: var(--ModerateCyan);
+}
+
+.sectiontwoimgimage {
+
+    width: 45%;
+}
+
+hr {
+    width: 150px;
+    border: 1px solid;
+    margin: -12px 0 0 0;
+}
+
+.align {
+    display: flex; 
+    justify-content: flex-start;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.arrow {
+    height: 10px;
+    width: 10px;
+}
+
+.boxshadow {
+    height: 250px;
+    width: 340px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.11);
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+.boxshadowtwo {
+    display: flex;
+    gap: 5px;
+}
+
+.boxshadowtwo img{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+
+
+.sectiontwoimgimage img {
+    
+    padding-top: 50px;
+    width: 510px;
+    height: 400px;
+}
+
+
+
+.sectionthree {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 20px 100px 0 100px;
+height: auto;
+
+}
+
+
+
+
+.sectionthree {
+    background-color: var(--DesaturatedBlue)
+}
+
+
+.sectionthreewriting h1 {
+
+    font-size: 2.0rem;
+    color: var(--LightGrayishBlue);
+
+}
+
+
+.sectionthreewriting p {
+
+font-size: 17px;
+color: var(--LightGrayishBlue);
+}
+
+
+.sectionthreewriting {
+    width: 45%;
+    padding: 30px 0 50px 0;
+}
+
+
+
+.sectionthreebutton
+{
+    width: 45%;
+    display: flex;
+flex-direction: column;
+
+}
+
+
+
+.sectionthreebutton input{
+    width: 450px;
+}
+
+
+
+.footer 
+{
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+width: 100%;
+padding: 70px 100px 70px 100px;
+height: auto;
+color: var(--LightGrayishBlue);
+}
+
+.footer {
+    background-color: var(--VeryDarkBlue);
+}
+
+.footer img {
+    height: 50px;
+    width: 90px;
+}
+
+
+.footerimage {
+    display: flex;
+justify-content: space-between;
+
+}
+
+.footerimage img {
+
+    height: 10px;
+    width: 10px;
+}
+
+.Phone {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+
+@media (min-width: 768px) and (max-width: 968px) 
+
+{
+
+    .sectiontwoimg {
+    background-image: url(./images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+
+
+    }
+
+    
+    .sectiontwoimgimage img {
+
+        width: 500px;
+        height: auto;
+        margin-left: 200px;
+
+
+    }
+
+
+.greencenter img, hr {
+    
+    margin-left: 290px !important;
+}
+
+
+
+.align {
+    margin-left: 290px !important;
+}
+   
+
+
+.sectionthreebutton {
+    margin: -30px 0 100px 250px !important
+  }
+  
+
+    }
+
+
+
+
+@media (max-width: 992px) {
+
+    nav {
+        display: block;
+        width: auto;
+        padding: 10px;
+        
+    }
+
+
+   
+    nav {
+
+        display: flex;
+    
+
+    }
+
+
+    nav img {
+
+        height: 50px ;
+        width: 100px ;
+    }
+
+nav a {
+
+    font-size: 14px;
+    
+}
+
+    .Sectionimg {
+        display: block;
+        width: 100%;
+      padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .sectionimagepic {
+        width: 100%;
+    
+    }
+    
+    
+    .sectionimagepic img {
+        width: 100%;
+        height: auto;
+    
+    }
+    
+
+    .sectionimgwriting {
+        width: 100%;
+        height: auto;
+        text-align: center;
+      
+        
+    }
+
+
+    .sectionimgwriting h1 {
+        
+        font-size: 1.8rem;
+        font-family:'Open Sans';
+
+
+    }
+
+    .sectionimgwriting p {
+        font-size: 1.0rem;
+        padding: 4px;
+        
+
+    }
+
+  
+
+    .sectionimgwriting button {
+        width: 280px;
+        margin-top: 10px;
+    }
+    
+
+
+
+
+    .sectiontwoimg {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+    margin-top: 100px;
+    }
+
+
+
+    .sectiontwoimgwriting {
+
+        width: 100%;
+        height: auto;
+        margin-top: 70px;
+        padding: 5px;
+   
+        
+    }
+
+    .sectiontwoimgwriting h1 {
+   font-size: 1.2rem;
+   text-align: center;
+   
+    }
+
+    .pwring {
+        font-size: 1.6rem;
+    color: var(--LightGray);
+
+    }
+.greencenter img, hr {
+    
+    margin-left: 100px;
+}
+
+
+
+.align {
+    margin-left: 100px;
+}
+   
+
+.boxshadow {
+    margin: 100px auto 100px auto;
+    padding: auto;
+}
+
+
+    .sectiontwoimgimage img {
+
+        width: 350px;
+        height: auto;
+
+
+    }
+
+
+.sectionthree {
+
+    display: block;
+    width: auto;
+
+    
+   
+}
+
+.sectionthree {
+    text-align: center;
+    padding: 5px 10px 10px 5px;
+    
+}
+
+.sectionthreewriting {
+    font-size: 2rem;
+    width: 100%;
+}
+
+
+.sectionthreewriting h1 {
+    font-size: 18px;
+}
+
+
+.sectionthreewriting p {
+    font-size: 18px;
+}
+
+
+.sectionthreebutton {
+  margin: -30px 0 100px 50px
+}
+
+
+
+
+.sectionthreebutton input{
+    width: 250px;
+}
+
+
+.sectionthreebutton button {
+    width: 250px;
+}
+
+.sectiontwoimg {
+background-image: url(./images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+   
+}
+
+.footer {
+    display: block;
+    width: auto;
+    padding: 50px 0 40px 30px;
+    
+}
+
+.footerimage {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+}
